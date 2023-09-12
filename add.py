@@ -1,4 +1,16 @@
-a = 4
-b = 5
-z = a-b
-print(z)
+def fizzBuzz(n):
+    # Write your code here
+    i = 3
+    if (i%3 == 0):
+        print ("Fizz")
+    elif (i%5 == 0):
+        print("Buzz")
+    elif (i%3 ==0 and i%5 == 0):
+        print("FizzBuzz")
+    else:
+        print (i)
+
+for i in range(1, 16):
+    fizzBuzz(i)
+
+
